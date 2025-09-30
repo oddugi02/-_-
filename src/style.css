@@ -1,0 +1,782 @@
+#where {
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#istheboy {
+    font-size: 70px;
+    left: 20px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#question {
+    font-size: 90px;
+    bottom: 125px;
+    right: 50px;
+    position: absolute;
+    z-index: 10;
+
+}
+
+#blackbox {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    bottom: 120px;
+    right: 20px;
+}
+
+#whitebox {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    position: absolute;
+    bottom: 130px;
+    right: 30px;
+}
+
+
+#bg {
+    background-color: #ffff66;
+    margin: 0;
+    height: 900px;
+    width: 500px;
+    margin: 0;
+}
+
+#hi {
+    font-size: 130px;
+    position: absolute;
+    top: 80px;
+    left: 38px;
+    color: brown;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#hello {
+    font-size: 80px;
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    z-index: 10;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+#byg {
+    background-color: #ffff66;
+    margin: 0;
+    height: 900px;
+    width: 500px;
+    margin: 0;
+}
+
+#bkg {
+    background-color: #f433ff;
+    margin: 0;
+    height: 900px;
+    width: 500px;
+    margin: 0;
+}
+
+
+#wtbx1 {
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    top: 80px;
+    left: 35px;
+}
+
+#ticket {
+    position: absolute;
+    font-size: 160px;
+    top: 55px;
+    left: 40px;
+}
+
+
+#wtbx2 {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background-color: white;
+    top: 200px;
+    left: 100px;
+}
+
+#icecream {
+    position: absolute;
+    font-size: 90px;
+    top: 205px;
+    left: 110px;
+}
+
+
+#wtbx3 {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background-color: white;
+    top: 320px;
+    left: 165px;
+}
+
+#hotdog {
+    position: absolute;
+    font-size: 80px;
+    top: 340px;
+    left: 180px;
+}
+
+
+#wtbx4 {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background-color: white;
+    top: 440px;
+    left: 250px;
+}
+
+#popcorn {
+    position: absolute;
+    font-size: 80px;
+    top: 450px;
+    left: 260px;
+}
+
+#wheel {
+    position: absolute;
+    font-size: 155px;
+    top: 615px;
+    left: 280px;
+}
+
+#foryou {
+    font-size: 70px;
+    color: #FFEA00;
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    line-height: 1;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#say {
+    flex-wrap: wrap;
+    font-size: 33px;
+    color: brown;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+    position: absolute;
+    top: 140px;
+    line-height: 1.6;
+    align-content: center;
+}
+
+#amusement {
+    width: 180px;
+    height: 300px;
+    position: absolute;
+    bottom: 70px;
+    right: 34px;
+    z-index: 15;
+}
+
+#happyquestion {
+    font-size: 60px;
+    color: navy;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    line-height: 1.1;
+    font-style: italic;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#imhappy {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    top: 330px;
+    left: 45px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+#checkhappy {
+    position: absolute;
+    font-size: 50px;
+    top: 380px;
+    left: 40px;
+}
+
+#soso {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    top: 500px;
+    left: 37px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+#checksoso {
+    position: absolute;
+    font-size: 50px;
+    top: 560px;
+    left: 37px;
+}
+
+#bad {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    top: 640px;
+    left: 37px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+#checkbad {
+    position: absolute;
+    font-size: 50px;
+    top: 700px;
+    left: 40px;
+}
+
+#happyimage {
+    width: 350px;
+    height: 330px;
+    position: absolute;
+    top: 70px;
+    left: 47px;
+}
+
+#happysay {
+    color: brown;
+    font-family: "Delius", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    bottom: 200px;
+    left: 35px;
+    position: absolute;
+}
+
+#sososay {
+    font-size: 35px;
+    color: brown;
+    position: absolute;
+    bottom: 320px;
+    left: 35px;
+    font-family: "Delius", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#sosoimage {
+    width: 330px;
+    height: 310px;
+    position: absolute;
+    top: 70px;
+    left: 47px;
+    filter: grayscale(45%);
+}
+
+#badbox {
+    width: 500px;
+    height: 900px;
+    background-color: #d0b336;
+    margin: 0;
+}
+
+#badimage {
+    width: 250px;
+    height: 170px;
+    position: absolute;
+    top: 70px;
+    left: 47px;
+    filter: grayscale(90%);
+}
+
+#badsay {
+    font-family: "Delius", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: beige;
+    position: absolute;
+    bottom: 480px;
+    left: 35px;
+    font-size: 25px;
+}
+
+#clownsoso {
+    filter: grayscale(45%);
+}
+
+#clownbad {
+    filter: grayscale(100%);
+}
+
+#hiclown {
+    flex-wrap: wrap;
+    position: absolute;
+    font-size: 35px;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    top: 250px;
+    left: 45px;
+    color: black;
+}
+
+#missing {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: black;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font-style: italic;
+}
+
+#bkgl {
+    background-color: #f433ff;
+    margin: 0;
+    height: 900px;
+    width: 800px;
+    margin: 0;
+}
+
+#find1 {
+    position: absolute;
+    top: 120px;
+    right: 5px;
+    font-size: 70px;
+}
+
+#find2 {
+    position: absolute;
+    top: 450px;
+    left: 30px;
+    font-size: 70px;
+    z-index: 5;
+}
+
+#bkgl_reverse {
+    background-color: black;
+    margin: 0;
+    height: 900px;
+    width: 800px;
+    margin: 0;
+}
+
+#missing2 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #f433ff;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font-style: italic;
+    z-index: 10;
+}
+
+#missingred {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff0000;
+    position: absolute;
+    top: 38px;
+    left: 35px;
+    font-style: italic;
+}
+
+#missingred2 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff0000;
+    position: absolute;
+    top: 68px;
+    left: 65px;
+    font-style: italic;
+}
+
+#missingred3 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff0000;
+    position: absolute;
+    top: 98px;
+    left: 95px;
+    font-style: italic;
+}
+
+#missingred4 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff0000;
+    position: absolute;
+    top: 128px;
+    left: 125px;
+    font-style: italic;
+}
+
+#missingred5 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff0000;
+    position: absolute;
+    top: 158px;
+    left: 155px;
+    font-style: italic;
+}
+
+
+#noise {
+    position: absolute;
+    bottom: 65px;
+    left: 35px;
+    width: 350px;
+    height: 250px;
+}
+
+#one {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 370px;
+    height: 150px;
+    filter: grayscale(95%);
+}
+
+#meet {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+    font-style: oblique;
+}
+
+#quiet {
+    position: absolute;
+    font-size: 35px;
+    bottom: 60px;
+    left: 30px;
+}
+
+#q2 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 55px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+#two {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    width: 370px;
+    height: 150px;
+    filter: grayscale(95%);
+}
+
+#three {
+    position: absolute;
+    top: 250px;
+    right: 25px;
+    width: 370px;
+    height: 150px;
+    filter: grayscale(95%);
+}
+
+#four {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    width: 370px;
+    height: 150px;
+    filter: grayscale(95%);
+}
+
+#redbox {
+    position: absolute;
+    /* or fixed */
+    width: 500px;
+    height: 900px;
+    background-color: #fa3447;
+    margin: 0;
+    z-index: -1;
+    /* 뒤로 보내기 */
+}
+
+#clownfeet {
+    position: absolute;
+    /* 반드시 position 있어야 함 */
+    z-index: 10;
+    /* 앞에 나오게 */
+    width: 300px;
+    height: 400px;
+    top: 30px;
+    left: 50px;
+}
+
+#lowanx {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    position: absolute;
+    font-size: 35px;
+    position: absolute;
+    top: 340px;
+    left: 20px;
+}
+
+#midanx {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    position: absolute;
+    font-size: 35px;
+    position: absolute;
+    top: 440px;
+    left: 20px;
+}
+
+#highanx {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    position: absolute;
+    font-size: 35px;
+    position: absolute;
+    top: 540px;
+    left: 20px;
+}
+
+#whyrun {
+    position: absolute;
+    font-size: 45px;
+    color: black;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    top: 400px;
+    left: 30px;
+}
+
+#run {
+    width: 330px;
+    height: 310px;
+    position: absolute;
+    top: 300px left: 47px;
+    filter: grayscale(90%);
+}
+
+#comeback {
+    position: absolute;
+    font-size: 45px;
+    color: black;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    top: 520px;
+    left: 30px;
+}
+
+#kidnap {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-size: 57px;
+    position: absolute;
+    top: 30px;
+    font-style: italic;
+}
+
+#bkgl2 {
+    width: 500px;
+    height: 900px;
+    background-color: #f433ff;
+}
+
+#call {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+
+#bkgl3 {
+    width: 500px;
+    height: 900px;
+    background-color: #f2079c;
+}
+
+#bkgl4 {
+    width: 500px;
+    height: 900px;
+    background-color: #ff0000;
+}
+
+#call2 {
+    position: absolute;
+    bottom: 130px;
+    right: 105px;
+    filter: saturate(50%);
+    filter: greyscale(40%);
+    transform: rotate(180deg);
+}
+
+#call3 {
+    position: absolute;
+    bottom: 220px;
+    right: 195px;
+    filter: contrast(150%);
+    filter: grayscale(90%);
+}
+
+#call4 {
+    position: absolute;
+    bottom: 350px;
+    right: 135px;
+    filter: blur(45%);
+    filter: grayscale(25%);
+    transform: scaleY(-1);
+}
+
+#call5 {
+    position: absolute;
+    bottom: 480px;
+    right: 60px;
+    transform: rotate(90deg);
+    filter: grayscale(95%);
+}
+
+#above {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 350px;
+    height: 500px;
+}
+
+#view {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    bottom: 140px;
+    left: 50px;
+    color: brown;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+#truth1 {
+    position: absolute;
+    top: 27px;
+    left: 15px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 27px;
+}
+
+#truth2 {
+    position: absolute;
+    bottom: 27px;
+    right: 15px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 27px;
+}
+
+#explain {
+    font-family: "Barriecito", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+}
+
+#clownface {
+    width: 150px;
+    height: 150px;
+}
+
+/*
+#blbox {
+    width: 350px;
+    height: 600px;
+    background-color: black;
+}
+
+#whbox {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+    right: 200px;
+} */
