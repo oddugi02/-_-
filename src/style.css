@@ -126,6 +126,24 @@
     margin: 0;
 }
 
+#bkgsmall {
+    background-color: #f433ff;
+    margin: 0;
+    height: 100px;
+    width: 320px;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+}
+
+#amusement2 {
+    width: 310px;
+    height: 450px;
+    filter: hue-rotate(300deg) saturate(1.5);
+    z-index: -10;
+}
+
 #wtbx1 {
     position: absolute;
     width: 100px;
@@ -133,6 +151,7 @@
     background-color: white;
     top: 45px;
     left: 15px;
+    z-index: 7;
 }
 
 #ticket {
@@ -140,6 +159,7 @@
     font-size: 80px;
     top: 30px;
     left: 22px;
+    z-index: 10;
 }
 
 
@@ -150,6 +170,7 @@
     background-color: white;
     top: 120px;
     left: 70px;
+    z-index: 10;
 }
 
 #icecream {
@@ -157,6 +178,7 @@
     font-size: 65px;
     top: 115px;
     left: 82px;
+    z-index: 10;
 }
 
 
@@ -167,6 +189,7 @@
     background-color: white;
     top: 170px;
     left: 155px;
+    z-index: 10;
 }
 
 #hotdog {
@@ -174,6 +197,7 @@
     font-size: 58px;
     top: 172px;
     left: 158px;
+    z-index: 10;
 }
 
 
@@ -184,6 +208,7 @@
     background-color: white;
     top: 230px;
     left: 220px;
+    z-index: 10;
 }
 
 #popcorn {
@@ -191,29 +216,40 @@
     font-size: 63px;
     top: 235px;
     left: 225px;
+    z-index: 10;
 }
 
 #wheel {
     position: absolute;
-    font-size: 120px;
-    top: 388px;
-    left: 200px;
+    font-size: 100px;
+    top: 400px;
+    left: 220px;
+    z-index: 10;
 }
 
 #foryou {
     font-size: 43px;
     color: #FFEA00;
     position: absolute;
-    bottom: 100px;
+    bottom: 20px;
     left: 20px;
     line-height: 1;
     font-family: "Lexend Exa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    z-index: 10;
 }
 
-
+#smallyellow {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    background-color: #ffff66;
+}
 
 #happyquestion {
     font-size: 35px;
@@ -290,6 +326,19 @@
     position: absolute;
     top: 70px;
     left: 47px;
+    border-radius: 50%;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        filter: drop-shadow(0 0 5px magenta);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px magenta)
+    }
 }
 
 #happysay {
@@ -301,6 +350,7 @@
     bottom: 150px;
     left: 45px;
     position: absolute;
+    animation: glow 2s infinite;
 }
 
 #sososay {
@@ -315,12 +365,13 @@
 }
 
 #sosoimage {
-    width: 210px;
-    height: 200px;
+    width: 180px;
+    height: 160px;
     position: absolute;
-    top: 50px;
-    left: 38px;
-    filter: grayscale(55%);
+    top: 110px;
+    left: 30px;
+    filter: grayscale(0.4);
+    border-radius: 10px;
 }
 
 #badbox {
@@ -367,13 +418,78 @@
 #hiclown {
     flex-wrap: wrap;
     position: absolute;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Barriecito", system-ui;
     font-weight: 400;
     font-style: normal;
-    top: 250px;
-    left: 45px;
+    top: 320px;
+    left: 25px;
     color: black;
+}
+
+#hiclownhap {
+    flex-wrap: wrap;
+    position: absolute;
+    font-size: 35px;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    top: 300px;
+    left: 45px;
+    color: #E72107;
+}
+
+#hiclownbad {
+    flex-wrap: wrap;
+    position: absolute;
+    font-size: 25px;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 60px;
+    left: 25px;
+    color: darkolivegreen;
+}
+
+#sayhiclown {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+#sayhiclown2 {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+#sayhiclown3 {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#black {
+    background-color: black;
+    width: 300px;
+    height: 550px;
+    font-size: 30px;
+    color: white;
 }
 
 #missing {
