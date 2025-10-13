@@ -44,8 +44,8 @@
 #bg {
     background-color: #ffff66;
     margin: 0;
-    height: 550px;
-    width: 320px;
+    height: 600px;
+    width: 340px;
     margin: 0;
 }
 
@@ -76,8 +76,8 @@
 #byg {
     background-color: #ffff66;
     margin: 0;
-    height: 550px;
-    width: 320px;
+    height: 600px;
+    width: 340px;
     margin: 0;
 }
 
@@ -121,8 +121,8 @@
 #bkg {
     background-color: #f433ff;
     margin: 0;
-    height: 550px;
-    width: 320px;
+    height: 600px;
+    width: 340px;
     margin: 0;
 }
 
@@ -931,8 +931,8 @@
 
 #redbox {
     position: absolute;
-    width: 320px;
-    height: 550px;
+    height: 600px;
+    width: 340px;
     background-color: #fa3447;
     margin: 0;
     z-index: -1;
@@ -1035,7 +1035,7 @@
     background-color: #f433ff;
 }
 
-#call {
+#call1 {
     position: absolute;
     width: 200px;
     height: 250px;
@@ -1043,16 +1043,18 @@
     right: 20px;
 }
 
-#calllow {
+/*유색*/
+
+#call2 {
     position: absolute;
-    bottom: 100px;
-    left: 10px;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
+    bottom: 20px;
+    right: 20px;
+    filter: grayscale(100%);
 }
 
-
-
+/*흑백*/
 #bkgl3 {
     width: 500px;
     height: 900px;
@@ -1169,4 +1171,17 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+
+#mommeetsay {
+    color: black;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
 }
