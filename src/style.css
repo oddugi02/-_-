@@ -771,7 +771,7 @@
 }
 
 #x2image1 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     width: 280px;
     height: 130px;
     position: absolute;
@@ -780,7 +780,7 @@
 }
 
 #x2image2 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     position: absolute;
     width: 280px;
     height: 130px;
@@ -789,7 +789,7 @@
 }
 
 #x2image3 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     width: 280px;
     height: 130px;
     position: absolute;
@@ -798,7 +798,7 @@
 }
 
 #x2image4 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     width: 280px;
     height: 130px;
     top: 250px;
@@ -831,7 +831,7 @@
 }
 
 #x4image1 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     width: 280px;
     height: 130px;
     position: absolute;
@@ -840,7 +840,7 @@
 }
 
 #x4image2 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     position: absolute;
     width: 280px;
     height: 130px;
@@ -849,7 +849,7 @@
 }
 
 #x4image3 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     width: 280px;
     height: 130px;
     position: absolute;
@@ -858,7 +858,7 @@
 }
 
 #x4image4 {
-    filter: grayscale(100%);
+    filter: grayscale(95%);
     width: 280px;
     height: 130px;
     top: 250px;
@@ -888,6 +888,7 @@
         "YPN1" 0,
         "YPN2" 0;
     text-decoration: line-through;
+    opacity: 20%;
 }
 
 #q2 {
@@ -1262,4 +1263,10 @@
     width: 320px;
     height: 550px;
     background-color: #0cf8fc;
+}
+
+#graybox {
+    width: 320px;
+    height: 550px;
+    background-color: #d8d2dc;
 }
